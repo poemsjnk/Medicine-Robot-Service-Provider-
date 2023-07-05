@@ -1,0 +1,1 @@
+from speechdetectmod.main import SpeechDetectionModule

@@ -1,0 +1,21 @@
+{"intents": [
+    {"intent": "greetings",
+        "examples": ["Hi, nao", "Hello, nao", "Good day, my friend"], 
+        "responses": ["Hi, how are you today sir.", "Hello sir, good day to you.", "Good day, sir."]}, 
+    {"intent": "diagnosis", 
+        "examples": ["What is the symptom of influenza.", "What is the other term of influenza.", "What is influenza"], 
+        "responses": ["The symptom of influenza is fever,muscle aches ,headache ,dry cough,score throat  and lastly nasal congestion or possibly runny nose.", "Influenza is also know as Flu.", "Influenza is a contagious respiratory illness cause by influenza virus that infect the nose,throat and sometimes the lung."]}, 
+    {"intent": "treatment", 
+        "examples": ["What should I do when experiencing symptoms.", "What is the treatment for influenza", "What are the recommended antiviral drugs for children?"], 
+        "responses": ["If you have mild symptoms, please see your GP but if you are high risk, please go to your nearest hospital's ER(emergency room).", "Currently, there are three antiviral drugs recommended for treating the flu: oseltamivir (Tamiflu), zanamivir (Relenza), and peramivir (Rapivab).Ideally, the first dose should be taken within 48 hours of the onset of symptoms. Talk to your doctor, if you are at increased risk for complications from the flu. People at high risk include infants, elderly, those with chronic illnesses, pregnant women, those with weak immune systems.", "At the first sign of flu symptoms, talk to your doctor about whether antiviral drugs might benefit your child. These flu drugs can help a child get better sooner and may prevent serious flu complications. Antivirals work best when taken during the first two days of illness. The first dose should be taken within 48 hours of when symptoms started."]},
+    {"intent": "precautions", 
+        "examples": ["What are the standard precaution", "Is influenza droplet or airbone"], 
+        "responses": ["Hand Hygiene", "Mainly by droplets made when people with flu cough, sneeze, or talk. "]}, 
+    {"intent": "warnings", 
+        "examples": ["Nao, what must I do to avoid Influenza?", "Is influenza contagious?", "Which group of people are at risk?"], 
+        "responses": ["Avoid close contact. Stay home if you are showing symptoms of influenza", "The probability is 3 to 11 percent. Influenza can be contagious and usually it happens in annual epidemics", "Children and Pregnant women are the groups that are at most risk when having influenza"]},
+    {"intent": "end",
+        "examples": ["Good Bye Nao"],
+        "responses": ["bye bye"]}
+]
+}
